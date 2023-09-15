@@ -19,20 +19,20 @@ int main()
    This line will be ignored.
    So will this one. */
 
-    // Looks Ugly, how about :
-    /* This is a multi-line comment.
-     * the matching asterisks to the left
-     * can make this easier to read
-     */
+   // Looks Ugly, how about :
+   /* This is a multi-line comment.
+    * the matching asterisks to the left
+    * can make this easier to read
+    */
 
     // 1.3 Intro to Object and Variables
     std::cout << "\n1.3";
-    [[maybe_unused]] int x{21}; //define variable named x, type int or we can do multiple e.g.
-    [[maybe_unused]]  int y; [[maybe_unused]] int z;
+    [[maybe_unused]] int x{ 21 }; //define variable named x, type int or we can do multiple e.g.
+    [[maybe_unused]] int y; [[maybe_unused]] int z;
     // create different variables 
     // with different type in different lines, recommended :
-    [[maybe_unused]]  int a;
-    [[maybe_unused]]  double b;
+    [[maybe_unused]] int a;
+    [[maybe_unused]] double b;
 
     // 1.4 Variables assignment and initialization
     std::cout << "\n1.4";
@@ -70,7 +70,7 @@ int main()
     int five{ 5 };
     std::cout << "x is equal to: " << five << '\n'; // Using '\n' standalone
     std::cout << "And that's all, folks!\n"; // Using '\n' embedded into a double-quoted piece of text (note: no single quotes when used this way)
-    
+
     // Examples :
     std::cout << "Enter a number: "; // ask user for a number
 
@@ -78,7 +78,7 @@ int main()
     std::cin >> num; // get number from keyboard and store it in variable x
 
     std::cout << "You entered " << num << '\n';
-    
+
     std::cout << "Quiz \n";
     std::cout << "Enter a number: "; // ask user for a number
     int quiz1_4{}; // define variable x to hold user input
