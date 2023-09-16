@@ -84,5 +84,17 @@ int main()
     int quiz1_4{}; // define variable x to hold user input
     std::cin >> quiz1_4; // get number from keyboard and store it in variable x
     std::cout << "You entered " << quiz1_4 << '\n';
+
+
+    // 1.7 Identifier
+    std::cout << "\n 1.7 \n";
+    std::cout << "Best Naming Practices in Comments";
+    /*
+    int value; // conventional
+
+    int Value; // unconventional (should start with lower case letter)
+    int VALUE; // unconventional (should start with lower case letter)
+    int VaLuE; // unconventional (see your psychiatrist) ;)
+    */
     return 0;
 }
