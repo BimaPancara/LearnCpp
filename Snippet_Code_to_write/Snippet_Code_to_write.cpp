@@ -58,7 +58,7 @@ int main()
 
     [[maybe_unused]] int vv{ 5 };
 
-    // since x is [[maybe_unused]], no warning generated
+    // since vv is [[maybe_unused]], no warning generated
 
    // 1.5 Intro to iostream : cout, cin, endl
     std::cout << "\n1.5";
@@ -96,5 +96,21 @@ int main()
     int VALUE; // unconventional (should start with lower case letter)
     int VaLuE; // unconventional (see your psychiatrist) ;)
     */
+
+
+    // 1.8 Whitespaces and Basic Formatting
+    std::cout << "\n 1.8\n";
+    /* Ex:
+    * int x; x is a variable
+    * int main(); main is function
+    * Some valid usecases :
+    * int       x;
+    * int y;
+    * int
+        z;
+    */
+    // Concatenated?
+    std::cout << "Hello"
+        "World";
     return 0;
 }
